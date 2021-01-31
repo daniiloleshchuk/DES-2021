@@ -1,5 +1,4 @@
 .landing_container {
-    background-color: red;
     width: 100%;
     padding: 0 !important;
     overflow: hidden;
@@ -30,6 +29,14 @@
     color: #FCDFB3;
 }
 
+.first_section .text span{
+    /*background-color: #FCDFB3;*/
+    /*padding: 12px;*/
+    /*border-radius: 30px;*/
+    text-shadow: 2px 2px 10px saddlebrown;
+}
+
+
 .first_section .button, .first_section .button:active, .first_section .button:visited {
     font-weight: bold;
     font-size: 28px;
@@ -42,6 +49,43 @@
 
 .first_section .button div {
     padding: 16px 50px;
+}
+
+.img{
+    width: 100%;
+    max-width: 830px;
+    max-height: 464px;
+}
+
+.second_section .title, .third_section .title{
+    font-weight: bold;
+    font-size: 55px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.second_section .text, .third_section .text {
+    font-weight: 600;
+    font-size: 30px;
+    color: #4F3B24;
+    margin-bottom: 50px;
+}
+
+.second_section .button, .second_section .button:active, .second_section .button:hover, .second_section .button:visited,
+.third_section .button, .third_section .button:active, .third_section .button:hover, .third_section .button:visited{
+    background-color: white !important;
+    outline: none !important;
+    border: 2px solid #BA1B1B !important;
+    font-weight: bold;
+    color: #BA1B1B;
+    padding: 15px 40px;
+    font-size: 28px;
+    border-radius: 46px;
+}
+
+.second_section .button:active, .second_section .button:visited, .third_section .button:active, .third_section .button:visited{
+    background-color: #BA1B1B !important;
+    transition: 0.2s;
 }
 
 @media screen and (min-width: 1601px){
@@ -83,6 +127,20 @@
     .first_section .button div {
         padding: 10px 25px;
     }
+
+    .second_section .title, .third_section .title{
+        font-size: 35px;
+    }
+    .second_section .text, .third_section .text{
+        font-size: 25px;
+    }
+    .second_section .button, .second_section .button:active, .second_section .button:hover,
+    .second_section .button:visited, .third_section .button, .third_section .button:active,
+    .third_section .button:hover, .third_section .button:visited{
+        padding: 15px 35px;
+        font-size: 24px;
+        border-radius: 36px;
+    }
 }
 @media screen and (min-width: 1024px) {
     .first_section .details {
@@ -102,6 +160,13 @@
     .first_section .text {
         margin-bottom: 145px;
     }
+    .second_section .title, .third_section .title{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .second_section .text, .third_section .text{
+        margin-bottom: 40px;
+    }
 }
 @media screen and (max-width: 414px){
     .first_section .title {
@@ -117,6 +182,19 @@
     }
     .first_section .button div {
         padding: 7px 20px;
+    }
+    .second_section .title, .third_section .title{
+        font-size: 25px;
+    }
+    .second_section .text, .third_section .text{
+        font-size: 20px;
+    }
+    .second_section .button, .second_section .button:active, .second_section .button:hover,
+    .second_section .button:visited, .third_section .button, .third_section .button:active,
+    .third_section .button:hover, .third_section .button:visited{
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 26px;
     }
 }
 @media screen and (max-width: 320px) {
