@@ -2,8 +2,10 @@ import React from "react";
 import {Button, Col, Container, Navbar, Row} from 'react-bootstrap';
 import '../styles/landing.css';
 import logo from '../images/landing_logo.svg';
+import logoDark from '../images/landing_logo_dark.svg';
 import secondSectionImg from '../images/second_section.svg';
 import thirdSectionImg from '../images/third_section.svg';
+import {Link} from "react-router-dom";
 
 const LandingPage = (props) => {
     return (
@@ -64,7 +66,7 @@ const LandingPage = (props) => {
                     </Row>
                 </Col>
             </Row>
-            <Row className={`section third_section`} noGutters>
+            <Row className={`section third_section align-items-center`} noGutters>
                 <Col xs={12}>
                     <Row className={`justify-content-center align-items-center`}>
                         <Col xs={{order: 2, span: 12}} lg={{order: 1, span: 4}}>
@@ -88,8 +90,32 @@ const LandingPage = (props) => {
                     </Row>
                 </Col>
             </Row>
-            <Row className={`section fourth_section`} noGutters>
-                44
+            <Row className={`fourth_section justify-content-center align-items-center`} noGutters>
+                <Col xs={10}>
+                    <Row noGutters className={`align-items-center justify-content-center`}>
+                        <Col xs={{order: 3, span: 12}} lg={{order: 1, span: 2}}>
+                            <Row noGutters className={`justify-content-center align-items-center`}>
+                                <img src={logoDark} className={`logo`} alt=""/>
+                            </Row>
+                        </Col>
+                        <Col xs={{order: 2, span: 12}} lg={{order: 2, span: 5}}>
+                            <Row className={`justify-content-center text`} noGutters>
+                                <Link to={'/'}>
+                                    <div>Політика <br/> Конфіденційності </div>
+                                </Link>
+                            </Row>
+                        </Col>
+                        <Col xs={{order: 1, span: 12}} lg={{order: 3, span: 5}}>
+                            <Row className={`justify-content-center text`} noGutters>
+                                <div>Погоджуюсь на <br/>
+                                    <Link to={`/`}>
+                                        <span className={`data`}>обробку персональних даних</span>
+                                    </Link>
+                                </div>
+                            </Row>
+                        </Col>
+                    </Row>
+                </Col>
             </Row>
         </Container>
     );
