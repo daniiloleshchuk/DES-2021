@@ -30,13 +30,13 @@ const LandingPage = (props) => {
                     <Row className={`justify-content-center justify-content-lg-end`} noGutters>
                         <Col xs={12} lg={7} className={`details`}>
                             <Row className={`title justify-content-center justify-content-lg-start`} noGutters>
-                                <span>Збери для себе ідеальну страву!</span>
+                                <span>Collect the perfect dish for yourself!</span>
                             </Row>
                             <Row className={`text justify-content-center`} noGutters>
-                                <span>Сервіс, що запропонує найсмачніше поєднання того, що під рукою!</span>
+                                <span>A service that will offer the most delicious combination of what is at hand!</span>
                             </Row>
                             <Button className={`button`}>
-                                <div>Сформувати страву</div>
+                                <div>Form a dish</div>
                             </Button>
                         </Col>
                     </Row>
@@ -54,12 +54,12 @@ const LandingPage = (props) => {
                             <Row noGutters className={`justify-content-end`}>
                                 <Col className={`details`}>
                                     <Row noGutters className={`title justify-content-center justify-content-lg-start`}>
-                                        <span>Оберіть наявні чи улюблені продукти</span>
+                                        <span>Choose existing or favorite products</span>
                                     </Row>
                                     <Row noGutters className={`text justify-content-center justify-content-lg-start`}>
-                                        <span>Хочеш об’єднати буряк з медом чи авокадо з мандарином? Перевір, чи сподобається!</span>
+                                        <span>Do you want to combine beets with honey or avocados with tangerines? Check if you like it!</span>
                                     </Row>
-                                    <Button className={`button`}>Обрати інгредієнти</Button>
+                                    <Button className={`button`}>Choose ingredients</Button>
                                 </Col>
                             </Row>
                         </Col>
@@ -73,12 +73,12 @@ const LandingPage = (props) => {
                             <Row noGutters className={`justify-content-start`}>
                                  <Col className={`details`}>
                                     <Row noGutters className={`title justify-content-center justify-content-lg-start`}>
-                                        <span>Переглянь цікаві рецепти користувачів</span>
+                                        <span>See interesting recipes of users</span>
                                     </Row>
                                     <Row noGutters className={`text justify-content-center justify-content-lg-start`}>
-                                        <span>Переглянь цікаві рецепти користувачів</span>
+                                        <span>The experience can be delicious!</span>
                                     </Row>
-                                    <Button className={`button`}>Дивитись рецепти</Button>
+                                    <Button className={`button`}>See recipes</Button>
                                 </Col>
                             </Row>
                         </Col>
@@ -101,15 +101,15 @@ const LandingPage = (props) => {
                         <Col xs={{order: 2, span: 12}} lg={{order: 2, span: 5}}>
                             <Row className={`justify-content-center text`} noGutters>
                                 <Link to={'/'}>
-                                    <div>Політика <br/> Конфіденційності </div>
+                                    <div>Privacy <br/> policy </div>
                                 </Link>
                             </Row>
                         </Col>
                         <Col xs={{order: 1, span: 12}} lg={{order: 3, span: 5}}>
                             <Row className={`justify-content-center text`} noGutters>
-                                <div>Погоджуюсь на <br/>
+                                <div>I agree to the<br/>
                                     <Link to={`/`}>
-                                        <span className={`data`}>обробку персональних даних</span>
+                                        <span className={`data`}>processing of personal data</span>
                                     </Link>
                                 </div>
                             </Row>
