@@ -1,0 +1,199 @@
+almond
+anise
+apple
+apple juice
+artichoke
+avocado
+bacon
+bake
+baking mix
+baking powder
+baking soda
+banana
+barley
+basil
+bay leaf
+bean
+beef
+beer
+bell pepper
+black pepper
+blackberry
+blueberry
+bran
+brandy
+bread
+broccoli
+brown sugar
+butter
+buttermilk
+cabbage
+cake
+canola oil
+capers
+caramel
+carrot
+cashew
+celery
+cereal
+cheddar
+cheese
+cherry
+chestnut
+chicken
+chicken broth
+chile
+chile pepper
+chili
+chive
+chocolate
+cilantro
+cinnamon
+clam
+clove
+cocoa powder
+coconut
+coffee
+cola
+cookie
+cookies
+coriander
+corn
+corn syrup
+cornmeal
+cornstarch
+cottage cheese
+crab
+cranberry
+cranberry sauce
+cream
+cream cheese
+cucumber
+cumin
+curry
+date
+dill
+dough
+egg
+eggplant
+fennel
+fig
+fish
+flour
+food coloring
+fruit
+fry
+garlic
+ginger
+grains
+grape
+gravy
+green bean
+green onion
+ground beef
+ham
+hazelnut
+honey
+hot pepper
+ice
+italian seasoning
+ketchup
+kiwi
+lasagna
+leek
+lemon
+lemon juice
+lettuce
+lime
+lime juice
+liqueur
+macaroni
+mace
+maple syrup
+margarine
+marjoram
+marshmallow
+mayonnaise
+meatball
+milk
+mint
+molasses
+monterey jack
+mozzarella
+mushroom
+mustard
+noodle
+nut
+nutmeg
+oat
+olive
+onion
+orange
+orange juice
+oregano
+paprika
+parmesan
+parsley
+pasta
+pastry
+pea
+peach
+peanut
+peanut butter
+pear
+pecan
+pepper
+pickles
+pimento
+pineapple
+poppy
+pork
+pork chop
+pork rib
+pork tenderloin
+potato
+poultry
+pumpkin
+raisin
+raspberry
+red pepper
+red wine
+rhubarb
+rice
+ricotta
+roast
+rosemary
+rum
+sage
+salad dressing
+salami
+salmon
+salsa
+salt
+sauce
+sausage
+seed
+sesame
+shortening
+shrimp
+skewer
+sour cream
+sourdough
+soy sauce
+spaghetti
+spice
+spinach
+steak
+steak sauce
+strawberry
+sugar
+swiss cheese
+taco
+tarragon
+tea
+thyme
+tomato
+tomato sauce
+topping thawed
+tortillas
+tuna
