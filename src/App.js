@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 import LandingPage from './pages/LandingPage';
-import a from "./pages/a";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         />
       <Switch>
         <Route exact path='/' component={LandingPage}/>
-        <Route path='/a' component={a}/>
+        <Route path='/predict' component={MainPage}/>
       </Switch>
     </BrowserRouter>
   );

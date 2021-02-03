@@ -2,13 +2,14 @@ import React, {useState} from "react";
 import {Button, Col, Row} from "react-bootstrap";
 import {Field, Form, Formik} from 'formik';
 import algoService from "../services/algoService";
+import '../styles/main_page.css';
 
 
-const A = (props) => {
+const MainPage = (props) => {
     let [result, setResult] = useState('');
     return (
         <Row className={`justify-content-center`}>
-            <Col>
+            <Col  xs={10}>
                 <Formik
                     initialValues={{
                         ingredients: '',
@@ -27,7 +28,9 @@ const A = (props) => {
                                 <label htmlFor="firstName">Ingredients</label>
                             </Row>
                             <Row className={`justify-content-center`}>
-                                <Field id="ingredients" name="ingredients" placeholder="ingredients"/>
+                                <Field as={() =>
+                                    <textarea className={`area`} placeholder={`ingredients`} id="" cols="30" rows="10"/>
+                                } id="ingredients" name="ingredients" placeholder="ingredients"/>
                             </Row>
                             <Row className={`justify-content-center`}>
                                 <Button type={"submit"}>Submit</Button>
@@ -43,4 +46,4 @@ const A = (props) => {
     );
 }
 
-export default A;
+export default MainPage;
