@@ -24,13 +24,13 @@ def predict_probability(feature_matrix, coefficients: list):
 
 # here data is user's input
 def predict_using_ingredients(ingredients: list, coefficients: list, data: str):
-    feature_matrix = np.ones(len(ingredients)+1) 
+    feature_matrix = np.ones(len(ingredients)+1)
     data = data.split(",")
     for j in range(len(data)):
         data[j] = data[j].strip().lower()
     for i in range(0, len(ingredients)):
         feature_matrix[i+1] = 1 if ingredients[i] in data else 0
-    
+
     probability = predict_probability(feature_matrix, coefficients)
     return "{}% likely to be tasty".format(round(probability * 100, 2))
 

@@ -19,3 +19,6 @@ class AlgoTest(TestCase):
             '27.5% likely to be tasty',
             predict(self.input_str2)
         )
+
+    def test3(self):
+        print(predict(''))
