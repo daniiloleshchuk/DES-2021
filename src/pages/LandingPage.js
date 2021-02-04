@@ -35,7 +35,9 @@ const LandingPage = (props) => {
                             <Row className={`text justify-content-center`} noGutters>
                                 <span>A service that will offer the most delicious combination of what is at hand!</span>
                             </Row>
-                            <Button className={`button`}>
+                            <Button onClick={() => {
+                                window.location.href = `/predict`
+                            }} className={`button`}>
                                 <div>Form a dish</div>
                             </Button>
                         </Col>
@@ -47,7 +49,7 @@ const LandingPage = (props) => {
                     <Row className={`justify-content-center align-items-center`}>
                         <Col xs={12} lg={6}>
                             <Row noGutters className={`justify-content-start`}>
-                                 <img src={secondSectionImg} className={`img`} alt=""/>
+                                <img src={secondSectionImg} className={`img`} alt=""/>
                             </Row>
                         </Col>
                         <Col xs={12} lg={4}>
@@ -59,7 +61,9 @@ const LandingPage = (props) => {
                                     <Row noGutters className={`text justify-content-center justify-content-lg-start`}>
                                         <span>Do you want to combine beets with honey or avocados with tangerines? Check if you like it!</span>
                                     </Row>
-                                    <Button className={`button`}>Choose ingredients</Button>
+                                    <Button className={`button`} onClick={() => {
+                                        window.location.href = `/predict`
+                                    }}>Choose ingredients</Button>
                                 </Col>
                             </Row>
                         </Col>
@@ -71,20 +75,22 @@ const LandingPage = (props) => {
                     <Row className={`justify-content-center align-items-center`}>
                         <Col xs={{order: 2, span: 12}} lg={{order: 1, span: 4}}>
                             <Row noGutters className={`justify-content-start`}>
-                                 <Col className={`details`}>
+                                <Col className={`details`}>
                                     <Row noGutters className={`title justify-content-center justify-content-lg-start`}>
                                         <span>See interesting recipes of users</span>
                                     </Row>
                                     <Row noGutters className={`text justify-content-center justify-content-lg-start`}>
                                         <span>The experience can be delicious!</span>
                                     </Row>
-                                    <Button className={`button`}>See recipes</Button>
+                                    <Button className={`button`} onClick={() => {
+                                        window.location.href = `/predict`
+                                    }}>See recipes</Button>
                                 </Col>
                             </Row>
                         </Col>
                         <Col xs={{order: 1, span: 12}} lg={{order: 2, span: 6}}>
                             <Row noGutters className={`justify-content-end`}>
-                                 <img src={thirdSectionImg} className={`img`} alt=""/>
+                                <img src={thirdSectionImg} className={`img`} alt=""/>
                             </Row>
                         </Col>
                     </Row>
@@ -101,7 +107,7 @@ const LandingPage = (props) => {
                         <Col xs={{order: 2, span: 12}} lg={{order: 2, span: 5}}>
                             <Row className={`justify-content-center text`} noGutters>
                                 <Link to={'/'}>
-                                    <div>Privacy <br/> policy </div>
+                                    <div>Privacy <br/> policy</div>
                                 </Link>
                             </Row>
                         </Col>
