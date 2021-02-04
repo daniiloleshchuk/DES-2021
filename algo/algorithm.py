@@ -26,8 +26,12 @@ def predict_probability(feature_matrix, coefficients: list):
 def predict_using_ingredients(ingredients: list, coefficients: list, data: str):
     feature_matrix = np.ones(len(ingredients)+1)
     data = data.split(",")
+    counter = 0
     for j in range(len(data)):
         data[j] = data[j].strip().lower()
+        counter = counter + 1 if data[j] in ingredients else counter
+    if counter <=1:
+        return "Insert more ingredients"
     for i in range(0, len(ingredients)):
         feature_matrix[i+1] = 1 if ingredients[i] in data else 0
 
@@ -39,4 +43,4 @@ def predict(data: str):
     return predict_using_ingredients(ingredients, coefficients, data)
 
 
-# predict_using_ingredients(ingredients, coefficients, data)
+#predict_using_ingredients(ingredients, coefficients, data)
