@@ -19,6 +19,11 @@
     background-size: cover;
 }
 
+.first_section .details{
+    /*height: 100%;*/
+    /*max-height: 80vh;*/
+}
+
 .first_section .title {
     font-family: 'Playfair Display', serif;
     color: white;
@@ -134,11 +139,13 @@
         padding: 20px 45px;
     }
 }
-@media screen and (min-width: 1025px) and (max-width: 1600px){
+@media screen and (min-width: 1024px) and (max-width: 1599px){
     .first_section .title {
+        font-size: 45px;
         margin-bottom: 40px;
     }
     .first_section .text {
+        font-size: 30px;
         margin-bottom: 50px;
     }
 }
@@ -205,7 +212,7 @@
     }
     .first_section .text {
         font-size: 28px;
-        margin-bottom: 160px;
+        margin-bottom: 110px;
     }
     .first_section .button, .first_section .button:active, .first_section .button:visited {
         font-size: 15px;
@@ -236,6 +243,6 @@
         margin-bottom: 35px;
     }
     .first_section .text {
-        margin-bottom: 65px;
+        margin-bottom: 35px;
     }
 }

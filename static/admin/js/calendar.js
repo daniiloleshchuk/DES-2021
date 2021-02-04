@@ -143,7 +143,7 @@ depends on core.js for utility functions like removeChildren or quickElement
         }
     };
 
-    // Calendar -- A calendar instance
+    // Calendar -- MainPage calendar instance
     function Calendar(div_id, callback, selected) {
         // div_id (string) is the ID of the element in which the calendar will
         //     be displayed

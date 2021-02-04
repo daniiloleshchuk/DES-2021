@@ -28,8 +28,8 @@ const LandingPage = (props) => {
                         </Col>
                     </Row>
                     <Row className={`justify-content-center justify-content-lg-end`} noGutters>
-                        <Col xs={12} lg={7} className={`details`}>
-                            <Row className={`title justify-content-center justify-content-lg-start`} noGutters>
+                        <Col xs={12} lg={7} className={`details align-items-center`}>
+                            <Row className={`title justify-content-xl-start justify-content-center `} noGutters>
                                 <span>Collect the perfect dish for yourself!</span>
                             </Row>
                             <Row className={`text justify-content-center`} noGutters>

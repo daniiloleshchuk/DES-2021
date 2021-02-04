@@ -186,7 +186,7 @@ var requirejs, require, define;
 
     function makeRequire(relName, forceSync) {
         return function () {
-            //A version of a require function that passes a moduleName
+            //MainPage version of a require function that passes a moduleName
             //value for items that may need to
             //look up paths relative to the moduleName
             var args = aps.call(arguments, 0);
@@ -5180,7 +5180,7 @@ S2.define('select2/defaults',[
             if (debug && window.console && console.warn) {
               console.warn(
                 'Select2: The language file for "' + language + '" could ' +
-                'not be automatically loaded. A fallback will be used instead.'
+                'not be automatically loaded. MainPage fallback will be used instead.'
               );
             }
           }
