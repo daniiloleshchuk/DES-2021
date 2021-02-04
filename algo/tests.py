@@ -10,15 +10,30 @@ class AlgoTest(TestCase):
 
     def test1(self):
         self.assertEqual(
-            '77.29% likely to be tasty',
+            '71.08% likely to be tasty',
             predict(self.input_str1)
         )
 
     def test2(self):
         self.assertEqual(
-            '27.5% likely to be tasty',
+            '36.68% likely to be tasty',
             predict(self.input_str2)
         )
 
     def test3(self):
-        print(predict(''))
+        self.assertEqual(
+            'Insert more ingredients',
+            predict('')
+        )
+
+    def test4(self):
+        self.assertEqual(
+            'Insert more ingredients',
+            predict('qefwgre,fewgr')
+        )
+
+    def test5(self):
+        self.assertEqual(
+            'Insert more ingredients',
+            predict('fwerbwrv')
+        )
